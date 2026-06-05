@@ -392,3 +392,33 @@ RI-95: Ingresar Días Hábiles
 RI-96: Ingresar Hora de Entrada y Salida
 
 ---
+
+## Definiciones y Acrónimos
+
+* SRS: Software Requirements Specification (Especificaciónde requisitos de software)
+
+* RF: Requisito Funcional
+
+* RNF: Requisito No Funcional
+
+* RI: Requisito de Interfaz
+
+* PQR: Peticiones, Quejas, Reclamos
+
+* ChatBot: Programa automático que simula una conversación con usuarios.
+
+* Responsivo: Capacidad de adaptarse a diferentes tamaños de pantalla
+
+* BD: Base de Datos
+
+* PDF: Portable Document Format (Formato de Documento Portátil)
+
+* API: Application Programming Interface (Interfaz de Programación de Aplicaciones)
+
+* HTTPS: Protocolo de Transferencia de Hipertexto Seguro
+
+* SQL: Structured Query Language (Lenguaje de Consulta Estructurada)
+
+* SMTP: Protocolo Simple de Transferencia de Correo
+
+* JWT: JSON Web Token
