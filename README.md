@@ -72,42 +72,42 @@ necesidad de intervención humana en tareas repetitivas.
 
 ## Requisitos de la interfaz de software
 
-* Backend: 
+* **Backend:** 
 Es el cerebro detrás de escena. Es el código que corre en el servidor y se encarga de la lógica del negocio, procesar los datos, la seguridad y la comunicación entre los distintos sistemas.
-** Python 
-** FastAPI
+&nbsp; * Python 
+&nbsp; * FastAPI
 
-* Frontend: 
+* **Frontend:** 
 Es la cara visible de la aplicación, todo lo que el usuario ve, toca e interactúa directamente. En aplicaciones web o móviles, incluye los botones, colores, menús y animaciones.
-** React 
-** HTML 
-** CSS
+&nbsp; * React 
+&nbsp; * HTML 
+&nbsp; * CSS
 
-* Base de datos: 
+* **Base de datos:** 
 Es el almacén digital estructurado donde se guarda y organiza toda la información del sistema de forma permanente para que no se pierda al apagar el servidor.
-** PostgreSQL 
+* PostgreSQL 
 
-* Servicio de correo: 
+* **Servicio de correo:** 
 Es un sistema externo o interno especializado en el envío automatizado de correos electrónicos masivos o transaccionales (como confirmaciones, notificaciones o restablecimiento de contraseñas), evitando que estos mensajes caigan en la carpeta de SPAM.
-** SMTP para envío de notificaciones y recuperación de contraseñas.
+&nbsp; * SMTP para envío de notificaciones y recuperación de contraseñas.
 
-* ChatBot: 
+* **ChatBot:** 
 Es un programa informático diseñado para simular una conversación con usuarios humanos, ya sea a través de texto o de voz. Funciona de forma automatizada respondiendo preguntas comunes, guiando al usuario en tareas específicas (como agendar una cita) y operando de manera ininterrumpida las 24 horas del día.
-** Integración con API de Dialogflow
-** API de WhatsApp
+&nbsp; * Integración con API de Dialogflow
+&nbsp; * API de WhatsApp
 
 ## Requisitos de la interfaz de comunicación
 
-* Protocolo: HTTPS para todas las comunicaciones cliente-servidor.
+* **Protocolo:** HTTPS para todas las comunicaciones cliente-servidor.
 
-* Autenticación: JWT(JSON Web Tokens) con expiración.
+* **Autenticación:** JWT(JSON Web Tokens) con expiración.
 
 JWT es un estándar abierto utilizado para transmitir información de forma segura entre partes en formato JSON. Se usa principalmente para la autenticación y autorización de usuarios.
 
-* Tiempo Real: WebSockets para actualización de disponibilidad y notificaciones.
+* **Tiempo Real:** WebSockets para actualización de disponibilidad y notificaciones.
 
 WebSockets es un protocolo de comunicación que permite un canal de comunicación bidireccional y en tiempo real entre el usuario (navegador/cliente) y el servidor a través de una única conexión abierta. Una vez abierta la conexión, tanto el cliente como el servidor pueden enviarse datos en cualquier momento, de forma instantánea y sin esperas.
 
-* Correos electrónicos: Confirmaciones, recordatorios, recuperación de contraseña, alertas de cancelación.
+* **Correos electrónicos:** Confirmaciones, recordatorios, recuperación de contraseña, alertas de cancelación.
 
-* Exportación de datos: Formats PDF y Excel para reportes.
+* **Exportación de datos:** Formats PDF y Excel para reportes.
