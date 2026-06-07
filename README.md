@@ -111,6 +111,7 @@ necesidad de intervención humana en tareas repetitivas.
 
 ## 🛠️ Requisitos Funcionales (RF)
 
+| :--- | :--- | 
 | RF-01: Crear Cuenta | RF-47: Ver Disponibilidad |
 | RF-02: Digitar Nombre | RF-48: Solicitar Datos Cliente |
 | RF-03: Digitar Correo | RF-49: Registrar Datos Cliente |
@@ -236,6 +237,7 @@ RNF-23: Validación datos. El sistema debe validar datos ingresados.
 
 ## 💬 Requisitos de Interfaz Externa
 
+| :--- | :--- |
 | RI-01: Botón Registrarse / Crear Cuenta | RI-49: Registrar Datos |
 | RI-02: Ingresar Nombre | RI-50: Mensaje de Reprogramar Cita |
 | RI-03: Ingresar Correo | RI-51: Dar Nueva Fecha y Hora |
