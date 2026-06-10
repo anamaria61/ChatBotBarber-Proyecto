@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar Contraseña</title>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <h1> <img src="assets/img/Logo_fondo_transparente_navbar.PNG" alt="Logo_fondo_transparente" width="50">  ChatBotBarber</h1>
+        <button id="theme-btn">
+            👁 Visual Mode
+        </button>
+
+    </nav>
+
+    <main class="recovery-container">
+
+        <div class="recovery-card">
+
+            <h2>¿Olvidó su contraseña?</h2>
+
+            <p style="color: black;">
+                Introduzca el correo electrónico asociado a su cuenta.
+            </p>
+
+            <form action="#" method="POST">
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Correo Electrónico
+                    </label>
+
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email"
+                        placeholder="hola@correo.com"
+                        required
+                    >
+
+                </div>
+
+                <button type="submit">
+                    Siguiente
+                </button>
+
+            </form>
+
+            <hr>
+
+            <h2>Código de verificación</h2>
+
+            <p style="color: black;">
+                Revise su bandeja de entrada y escriba el código.
+            </p>
+
+            <form action="" method="post">
+
+                <input 
+                    type="text" 
+                    name="codigo"
+                    placeholder="Código"
+                    required
+                >
+
+                <button type="submit">
+                    Verificar
+                </button>
+
+            </form>
+
+            <hr>
+
+            <h2>Nueva contraseña</h2>
+
+            <form>
+
+                <label>Nueva contraseña</label>
+
+                <input 
+                    type="password" 
+                    name="nueva"
+                    required
+                >
+
+                <label>Confirmar contraseña</label>
+
+                <input 
+                    type="password"
+                    name="verificar"
+                    required
+                >
+
+                <button type="submit">
+                    Finalizar
+                </button>
+
+            </form>
+
+            <a href="login.html" class="cancel-btn">
+                Cancelar
+            </a>
+
+        </div>
+
+    </main>
+
+    <script src="assets/js/app.js"></script>
+
+    <footer>
+        @ChatBotBarber 2026
+    </footer>
+
+</body>
+</html>
